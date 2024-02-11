@@ -1,0 +1,331 @@
+:root {
+  --primary-white: #ffffff;
+  --primary-gray: #737373;
+  --sonic-silver: #757575;
+  --philipine-gray: #8c8c8c;
+  --philipine-silver: #b3b3b3;
+  --dusty-gray: #999999;
+  --input-color: #333333;
+  --dark-sky-blue: #0071eb;
+  --dark-red: #e50914;
+  --background-color: #000000bf;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: calc(100vw / 1928 * 10);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
+  font-family: 'Netflix Sans';
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Background Image */
+
+.background-image {
+  width: 100%;
+  height: 109.9rem;
+  overflow: hidden;
+}
+
+.background-image img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Header */
+
+header {
+  position: absolute;
+  top: 0%;
+  height: 9rem;
+  width: 100%;
+  display: flex;
+}
+
+header img {
+  width: 16.7rem;
+  height: 4.5rem;
+  margin-left: 5.8rem;
+  margin-top: 2.3rem;
+}
+
+/* The Container */
+
+.the-container {
+  display: flex;
+  justify-content: center;
+}
+
+/*    Main */
+
+main {
+  position: absolute;
+  background-color: var(--background-color);
+  top: 9.1rem;
+  width: 45rem;
+  height: 66rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*      Sign in details */
+
+.the-container .sign-in-details {
+  margin-top: 6rem;
+  height: 34.4rem;
+  width: 31.4rem;
+}
+
+.the-container .sign-in-details h1 {
+  color: var(--primary-white);
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 4.086rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 2.6rem;
+}
+
+.the-container .login-details input {
+  width: 31.4rem;
+  height: 5rem;
+  background-color: var(--input-color);
+  border: none;
+  border-radius: 0.4rem;
+  color: var(--primary-white);
+  outline: none;
+  padding-left: 2rem;
+}
+
+.the-container .login-details input:first-child {
+  margin-bottom: 1.4rem;
+}
+
+.the-container .login-details input:last-child {
+  margin-bottom: 4.2rem;
+}
+
+.the-container .login-details input::placeholder {
+  color: var(--philipine-gray);
+  height: 2rem;
+  width: 17rem;
+  font-family: 'Netflix Sans';
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.043rem;
+}
+
+.the-container button {
+  width: 31.4rem;
+  height: 4.8rem;
+  background-color: var(--dark-red);
+  border-style: none;
+  border-radius: 0.4rem;
+
+  font-family: 'Netflix Sans';
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+  color: var(--primary-white);
+  margin-bottom: 1rem;
+}
+
+.the-container button:hover {
+  cursor: pointer;
+}
+
+.the-container .further-assist {
+  width: 31.4rem;
+  height: 1.7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-left: 2.1rem;
+}
+
+.the-container .further-assist h4 {
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 1.56rem;
+  color: var(--philipine-silver);
+}
+
+/*      Additional Info */
+
+.the-container .additional-info {
+  width: 31.4rem;
+  height: 21.6rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.the-container .facebook-info {
+  width: 15.9rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.the-container .facebook-info img {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+}
+
+.the-container .facebook-info h4 {
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 1.3rem;
+  color: var(--primary-gray);
+}
+
+.the-container .sign-up .netflix-new-user {
+  width: 21.1rem;
+  height: 2rem;
+  margin-bottom: 1.4rem;
+}
+
+.the-container .sign-up h3 {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.043rem;
+  letter-spacing: -0.02rem;
+  color: var(--primary-gray);
+}
+
+.the-container .sign-up h3 em {
+  font-style: normal;
+  color: var(--primary-white);
+}
+
+.the-container .sign-up h3 em:hover {
+  cursor: pointer;
+}
+
+.the-container .sign-up a {
+  color: var(--primary-white);
+  text-decoration: none;
+}
+
+.the-container .sign-up .recaptcha {
+  width: 28.6rem;
+}
+
+.the-container .sign-up h4 {
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 1.53rem;
+  color: var(--philipine-gray);
+  letter-spacing: -0.02rem;
+}
+
+.the-container .sign-up h4 em {
+  font-style: normal;
+  color: var(--dark-sky-blue);
+}
+
+/* Company Info */
+
+.company-info {
+  position: absolute;
+  top: 84.1rem;
+  width: 100%;
+  height: 25.8rem;
+  background-color: var(--background-color);
+  display: flex;
+  justify-content: center;
+}
+
+.company-info .company-legal {
+  width: 100rem;
+  height: 23.8rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.company-info .question {
+  margin-top: 2rem;
+  margin-bottom: 2.9rem;
+}
+
+.company-info h4 {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.043rem;
+  color: var(--sonic-silver);
+}
+
+.company-info .terms-of-service {
+  width: 100rem;
+  height: 6.2rem;
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.company-info h5 {
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 1.66rem;
+  color: var(--sonic-silver);
+}
+
+.company-info h5:first-child {
+  margin-bottom: 1.4rem;
+}
+
+.company-info .info.one {
+  margin-right: 13.6rem;
+}
+
+.company-info .info.two {
+  margin-right: 12.1rem;
+}
+
+.company-info .info.three {
+  margin-right: 17.3rem;
+}
+
+.company-info .language {
+  width: 13.2rem;
+  height: 5.3rem;
+  border: solid var(--input-color) 0.1rem;
+  border-radius: 0.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.company-info .language img:first-child {
+  width: 1.8rem;
+  height: 1.8rem;
+  margin: 0 1.9rem 0 1.4rem;
+}
+
+.company-info .language img:last-child {
+  width: 1.2rem;
+  height: 1.2rem;
+  margin: 0 0.8rem 0 0.7rem;
+}
+
+.company-info .language h3 {
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 1.66rem;
+  color: var(--dusty-gray);
+}

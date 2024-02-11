@@ -1,0 +1,121 @@
+:root {
+  --primary-black: #141414;
+  --primary-white: #ffffff;
+  --mid-gray: #6d6d6eb2;
+  --gray: #808080;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: calc(100vw / 1440 * 10);
+}
+
+body {
+  background-color: var(--primary-black);
+  font-family: 'Netflix Sans';
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header */
+
+header {
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 19.3rem;
+}
+
+header img {
+  height: 3rem;
+  width: 11.1rem;
+  margin-left: 6rem;
+}
+
+/* Accounts */
+
+.accounts {
+  display: flex;
+  justify-content: center;
+}
+
+.accounts-info {
+  height: 47.8rem;
+  width: 126rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.accounts .name-container {
+  width: 33.6rem;
+  height: 8.2rem;
+}
+
+.accounts h1,
+.accounts h3,
+.profiles h2 {
+  font-weight: 400;
+  text-align: center;
+}
+
+.accounts h1 {
+  font-size: 6.4rem;
+  line-height: 8.173rem;
+  color: var(--primary-white);
+}
+
+.accounts .account-choice {
+  width: 100%;
+  height: 31.3rem;
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+  padding: 0 3rem;
+}
+
+.accounts .account-choice div {
+  height: 25.3rem;
+  width: 20rem;
+}
+
+.accounts .account-choice img {
+  width: 20rem;
+  height: 20rem;
+  margin-bottom: 2rem;
+}
+
+.accounts h3,
+.profiles h2 {
+  font-size: 2.6rem;
+  line-height: 3.32rem;
+  color: var(--mid-gray);
+}
+
+/* Profiles */
+
+.profiles {
+  display: flex;
+  justify-content: center;
+}
+
+.manage-profiles {
+  width: 30.8rem;
+  height: 5.3rem;
+  border: 0.1rem solid var(--gray);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 27.3rem;
+}
+
+.profiles h2 {
+  color: var(--gray);
+}
