@@ -149,4 +149,33 @@ main .main-movie-section .movie-name {
 main .main-movie-section .movie-info {
   height: 3.8rem;
   width: 43.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+
+main .main-movie-section .movie-info img {
+  height: auto;
+  width: 3.2rem;
+}
+
+main .main-movie-section .movie-info h1 {
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 3.831rem;
+}
+
+main .main-movie-section .movie-description {
+  height: 13.2rem;
+  width: 63.6rem;
+}
+
+main .main-movie-section .movie-description h2 {
+  font-weight: 400;
+  font-size: 2.6rem;
+  line-height: 3.32rem;
+}
+
+/* main .main-movie-section .main-movie {
+
+} */
